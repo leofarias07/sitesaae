@@ -89,11 +89,11 @@
   <section class="noticias-title mt-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-9">
           <h1 class="h3">Destaques Saae</h1>
         </div>
-        <div class="col-md-4">
-          <h1 class="h3">Video</h1>
+        <div class="col-md-3">
+          <h1 class="h3">Atendimento</h1>
         </div>
       </div>
 
@@ -143,7 +143,11 @@
                 </div>
             
                 </div>
-                </div>               
+                </div> 
+
+                <div class="col-md-3">
+                  <img src="imagens/aten1.fw.png" width="250">
+                </div>             
            
 
       </div>
