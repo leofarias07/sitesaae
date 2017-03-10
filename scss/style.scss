@@ -105,8 +105,13 @@ outline: 0;
 /*------------------ Estilos Destaques ------------*/
 
 .title h1{
-  border-bottom: 1px solid $principal;
+  border-bottom: 2px solid $principal;
   color: $secundario;
+
+}
+.fa {
+
+    font-size: 1.4rem;
 
 }
 /*----------------------------------------
@@ -156,5 +161,28 @@ outline: 0;
 
 }
 
+.piedepagina {
+    background: $texto;
+    color: #fff;
+    text-align: center;
+    font-size: .9rem;
+}
+.piedepagina .redes-sociales {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.piedepagina .redes-sociales a {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0 .5rem;
+    opacity: .7;
+    transition: all .5s ease;
+}
+.piedepagina .redes-sociales a:hover {
+    opacity: 1;
+}
 
 

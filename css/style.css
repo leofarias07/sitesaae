@@ -109,8 +109,11 @@ body {
 
 /*------------------ Estilos Destaques ------------*/
 .title h1 {
-  border-bottom: 1px solid #03B0EF;
+  border-bottom: 2px solid #03B0EF;
   color: #4682B4; }
+
+.fa {
+  font-size: 1.4rem; }
 
 /*----------------------------------------
 ------------Media quere------
@@ -169,5 +172,34 @@ body {
     top: 2.8rem;
     -webkit-transition: all .5s ease;
             transition: all .5s ease; } }
+.piedepagina {
+  background: #4682B4;
+  color: #fff;
+  text-align: center;
+  font-size: .9rem; }
+
+.piedepagina .redes-sociales {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.piedepagina .redes-sociales a {
+  color: #fff;
+  font-size: 2rem;
+  margin: 0 .5rem;
+  opacity: .7;
+  -webkit-transition: all .5s ease;
+          transition: all .5s ease; }
+
+.piedepagina .redes-sociales a:hover {
+  opacity: 1; }
 
 /*# sourceMappingURL=style.css.map */

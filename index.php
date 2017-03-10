@@ -1,52 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    
-    <link rel="stylesheet" href="css/style.css">
-    
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-      
-  </head>
-  <body>
-  <section class="bem-vindos">
-    <header class="cabecalho fixed-top" role="banner">
-    <div class="container">
-      <a href="index.php" class="logo">
-        <img src="imagens/logobranca.png" alt="logotipo">
-      </a>
-
-      <button type="button" class="boton-buscar" data-toggle="collapse" data-target="#bloco-buscar" aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-search" aria-hidden="true"></i>
-</button>
-      <button type="button" class="boton-menu hidden-md-up" data-toggle="collapse" data-target="#menuprincipal" aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-bars" aria-hidden="true"></i>
-</button>
-
-      <form action="#" id="bloco-buscar" class="collapse">
-        <div class="container-bloco-buscar">
-          <input type="text" placeholder="Buscar...">
-          <input type="submit" value="Buscar">
-        </div>
-      </form>
-
-      <nav id="menuprincipal" class="collapse">
-        <ul>
-          <li class="active"><a href="index.php">Home</a></li>
-          <li><a href="sobre.php">Quem Somos</a></li>
-          <li><a href="servicos.php">Serviços</a></li>
-          <li><a href="contato.php">Contato</a></li>
-          
-        </ul>
-      </nav>
-      </div>
-    </header>
-  </section>
-
-
+<?php
+include_once("header.php");
+?>
 
   <section class="slider">
   <div class="container">
@@ -91,10 +45,12 @@
     <div class="container">
       <div class="row">
         <div class="col-md-9 title">
-          <h1 class="h3">Destaques Saae</h1>
+          <h1 class="h3"><i class="fa fa-tint" aria-hidden="true"></i>
+
+Destaques Saae</h1>
         </div>
         <div class="col-md-3 title">
-          <h1 class="h3">Atendimento</h1>
+          <h1 class="h3"><i class="fa fa-tint" aria-hidden="true"></i> Atendimento</h1>
         </div>
       </div>
 
@@ -152,10 +108,10 @@
            
 
       </div>
-      
+
   <hr class="">
       </div>
-      
+
   </section>
 
 
@@ -163,13 +119,15 @@
     <div class="container">
       <div class="row">
         <div class="col-md-9 title ">
-          <h1 class="h3">Saneamento Basico</h1>
+          <h1 class="h3"><i class="fa fa-tint" aria-hidden="true"></i> Saneamento Basico</h1>
       
-          <img src="https://placehold.it/825x150">
+          <img src="imagens/pmsb.svg">
         </div>
 
          <div class="col-md-3">
-        
+            <img src="imagens/bn_legislacao.jpeg" class="mt-4 img-fluid">
+            <img src="imagens/bn_transparencia.png" class=" mt-3 img-fluid">
+
         </div>
 
 
@@ -182,13 +140,13 @@
     <div class="container">
       <div class="row">
         <div class="col-md-9 title ">
-          <h1 class="h3">Dicas de Economia</h1>
+          <h1 class="h3"><i class="fa fa-tint" aria-hidden="true"></i> Dicas de Economia</h1>
       
           <img src="https://placehold.it/825x150">
         </div>
 
-         <div class="col-md-3">
-        
+         <div class="col-md-3 mt-6">
+           <div class="fb-page" data-href="https://www.facebook.com/saae.caxias.ma.gov.br/?fref=ts" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/saae.caxias.ma.gov.br/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/saae.caxias.ma.gov.br/?fref=ts">SAAE Caxias - MA</a></blockquote></div>
         </div>
 
 
@@ -196,10 +154,9 @@
     </div>
     
   </section>
+
+  <?php
+include_once("footer.php");
+?>
+
  
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="js/jquery-3.1.1.slim.min.js"></script>
-    <script src="js/tether.min.js" ></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
-</html>
