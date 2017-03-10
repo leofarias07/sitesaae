@@ -14,38 +14,39 @@
       
   </head>
   <body>
-  <header class="header">
-  
-        <nav class="navbar fixed-top navbar-toggleable-md navbar-light">
-          <div class="container">
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#menuprincipal" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="fa fa-bars" aria-hidden="true""></span>
-          </button>
-          <a class="navbar-brand" href="#"><img src="imagens/logobranca.png"></a>
+  <section class="bem-vindos">
+    <header class="cabecalho fixed-top" role="banner">
+    <div class="container">
+      <a href="index.php" class="logo">
+        <img src="imagens/logobranca.png" alt="logotipo">
+      </a>
 
-          <div class="collapse navbar-collapse" id="menuprincipal">
-            <ul class="navbar-nav ml-auto mt-2 mt-md-0">
-              <li class="nav-item pr-2 active">
-                <a class="nav-link" href="#">Saae</a>
-              </li>
-              <li class="nav-item pr-2">
-                <a class="nav-link" href="#">Agencia Virtual</a>
-              </li>
-              <li class="nav-item pr-2">
-                <a class="nav-link" href="#">Transparencias</a>
-              </li>
-              <li class="nav-item pr-2">
-                <a class="nav-link" href="#">Imprensa</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Ouvidoria</a>
-              </li>
-            </ul>
-          </div>
-          </div>
-        </nav>
+      <button type="button" class="boton-buscar" data-toggle="collapse" data-target="#bloco-buscar" aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-search" aria-hidden="true"></i>
+</button>
+      <button type="button" class="boton-menu hidden-md-up" data-toggle="collapse" data-target="#menuprincipal" aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-bars" aria-hidden="true"></i>
+</button>
 
-  </header>
+      <form action="#" id="bloco-buscar" class="collapse">
+        <div class="container-bloco-buscar">
+          <input type="text" placeholder="Buscar...">
+          <input type="submit" value="Buscar">
+        </div>
+      </form>
+
+      <nav id="menuprincipal" class="collapse">
+        <ul>
+          <li class="active"><a href="index.php">Home</a></li>
+          <li><a href="sobre.php">Quem Somos</a></li>
+          <li><a href="servicos.php">Serviços</a></li>
+          <li><a href="contato.php">Contato</a></li>
+          
+        </ul>
+      </nav>
+      </div>
+    </header>
+  </section>
+
+
 
   <section class="slider">
   <div class="container">
@@ -86,13 +87,13 @@
     </div>
   </section>
 
-  <section class="noticias-title mt-5">
+  <section class="noticias  mt-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-9">
+        <div class="col-md-9 title">
           <h1 class="h3">Destaques Saae</h1>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 title">
           <h1 class="h3">Atendimento</h1>
         </div>
       </div>
@@ -109,7 +110,7 @@
                 <img class="card-img-top" src="https://placehold.it/318x200" class="card-img-top" alt="Card image cap">
                 <div class="card-block">
                   <h4 class="card-title">Card title</h4>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             
@@ -122,7 +123,7 @@
                 <img class="card-img-top" src="https://placehold.it/318x200" class="card-img-top" alt="Card image cap">
                 <div class="card-block">
                   <h4 class="card-title">Card title</h4>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             
@@ -138,7 +139,7 @@
                 <img class="card-img-top" src="https://placehold.it/318x200" class="card-img-top" alt="Card image cap">
                 <div class="card-block">
                   <h4 class="card-title">Card title</h4>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             
@@ -151,8 +152,49 @@
            
 
       </div>
+      
+  <hr class="">
+      </div>
+      
+  </section>
+
+
+  <section class="saneamento-basico">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 title ">
+          <h1 class="h3">Saneamento Basico</h1>
+      
+          <img src="https://placehold.it/825x150">
+        </div>
+
+         <div class="col-md-3">
+        
+        </div>
+
 
       </div>
+    </div>
+    
+  </section>
+
+    <section class="dicas-economia mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 title ">
+          <h1 class="h3">Dicas de Economia</h1>
+      
+          <img src="https://placehold.it/825x150">
+        </div>
+
+         <div class="col-md-3">
+        
+        </div>
+
+
+      </div>
+    </div>
+    
   </section>
  
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
